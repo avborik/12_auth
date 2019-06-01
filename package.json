@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "auth"
   ],
+  "engines":{
+    "node":"11.6.0"
+  },
   "author": "Boris Avdeev",
   "license": "ISC",
   "dependencies": {
